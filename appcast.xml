@@ -9,7 +9,7 @@
             <title>VoiceX 0.2.0</title>
             <description><![CDATA[
                 <h2>VoiceX 0.2.0</h2>
-                <p>0.2.0 with new features</p>
+                <p>new release</p>
                 <ul>
                     <li>Latest features and improvements</li>
                     <li>Performance optimizations</li>
@@ -17,15 +17,16 @@
                     <li>Enhanced user experience</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 28 Sep 2025 22:44:47 +0530</pubDate>
+            <pubDate>Sun, 28 Sep 2025 23:15:21 +0530</pubDate>
             <sparkle:version>0.2.0</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:criticalUpdate/>
             <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg"
                        sparkle:version="0.2.0"
                        sparkle:shortVersionString="0.2.0"
-                       sparkle:edSignature="/BpeCUkyHNvhwArXQ74ZRPGWNksBjVow4hk9CFvkaPo+jviXLXvE4/Ytv6vp0DfzEWY1WSHcO3zJVtqAi45kDg=="
-                       length="13494106"
+                       sparkle:edSignature="ejIDQ63bQo1xYqgCjvkzVgZ6HfmEUEZ/qhl4nOlNpK5saPf4LYFfLzZKIo94CYUcGSKemMMGfOPSczZ74tKZDQ=="
+                       length="13491162"
                        type="application/octet-stream"/>
         </item>
     </channel>
