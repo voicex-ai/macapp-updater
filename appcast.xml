@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>VoiceX Updates</title>
+        <link>https://github.com/voicex-ai/macapp-updater</link>
         <description>VoiceX automatic updates</description>
         <language>en</language>
         
         <item>
             <title>VoiceX 0.2.0</title>
-            <description><![CDATA[
-                <h2>VoiceX 0.2.0</h2>
-                <p>0.2.0 with new features</p>
-                <ul>
-                    <li>Latest features and improvements</li>
-                    <li>Performance optimizations</li>
-                    <li>Bug fixes and stability updates</li>
-                    <li>Enhanced user experience</li>
-                </ul>
-            ]]></description>
-            <pubDate>Sun, 28 Sep 2025 20:20:35 +0530</pubDate>
+            <link>https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg</link>
             <sparkle:version>0.2.0</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h2>VoiceX 0.2.0</h2>
+                <p>Update with new features and improvements</p>
+            ]]></description>
+            <pubDate>Sun, 28 Sep 2025 20:20:35 +0530</pubDate>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg"
                        sparkle:version="0.2.0"
