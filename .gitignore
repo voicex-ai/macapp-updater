@@ -24,10 +24,8 @@ sign_update
 # DEVELOPMENT FILES
 # ===========================================
 
-# Shell scripts (except essential helpers)
+# Shell scripts (internal workflow - not for public)
 *.sh
-!setup_sparkle_keys.sh
-!process_dmg_for_sparkle.sh
 
 # Temporary and cache files
 sparkle-tools.zip

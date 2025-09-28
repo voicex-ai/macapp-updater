@@ -1,111 +1,58 @@
 # VoiceX macOS App Updater
 
-A professional Sparkle-based update system for VoiceX macOS application, providing seamless automatic updates for users.
+A public repository hosting the Sparkle appcast for VoiceX macOS application automatic updates.
 
-## 🚀 Features
+## 🚀 About
 
-- **Automatic Updates**: Seamless background updates using Sparkle framework
-- **Secure Signing**: EdDSA cryptographic signatures for update integrity
-- **Professional Workflow**: Streamlined scripts for DMG processing and deployment
-- **GitHub Integration**: Automated release management with GitHub Releases
-
-## 📋 Prerequisites
-
-- macOS development environment
-- GitHub repository with releases enabled
-- VoiceX app configured with Sparkle framework
-
-## 🛠️ Setup
-
-### 1. Initial Configuration
-
-Run the setup script to download Sparkle tools and generate cryptographic keys:
-
-```bash
-./setup_sparkle_keys.sh
-```
-
-This script will:
-- Download the latest Sparkle tools
-- Generate EdDSA key pair for signing updates
-- Display the public key for integration into your app
-
-### 2. App Integration
-
-Add the public key to your VoiceX app's `Info.plist`:
-
-```xml
-<key>SUPublicEDKey</key>
-<string>YOUR_PUBLIC_KEY_HERE</string>
-```
-
-## 📦 Release Process
-
-### Processing DMG Files
-
-Use the processing script to prepare your DMG for release:
-
-```bash
-./process_dmg_for_sparkle.sh <version> "<release_notes>" <path_to_dmg>
-```
-
-**Example:**
-```bash
-./process_dmg_for_sparkle.sh 1.2.0 "Bug fixes and performance improvements" ./VoiceX-notarized.dmg
-```
-
-This script will:
-- Sign the DMG with your private key
-- Generate a complete `appcast.xml`
-- Create a properly named release file
-- Provide next steps for GitHub release
-
-### GitHub Release
-
-1. Create a new release on GitHub
-2. Tag: `v<version>` (e.g., `v1.2.0`)
-3. Upload the signed DMG file
-4. Commit and push the updated `appcast.xml`
+This repository provides the update feed for VoiceX macOS application using the Sparkle framework. It hosts the `appcast.xml` file that enables seamless automatic updates for VoiceX users.
 
 ## 🔗 Appcast Configuration
 
 **Appcast URL:** `https://raw.githubusercontent.com/voicex-ai/macapp-updater/main/appcast.xml`
 
-Configure this URL in your VoiceX app's Sparkle settings.
+Configure this URL in your VoiceX app's Sparkle settings to enable automatic updates.
 
 ## 📁 Repository Structure
 
 ```
 macapp-updater/
-├── setup_sparkle_keys.sh          # Initial setup and key generation
-├── process_dmg_for_sparkle.sh     # DMG processing and signing
 ├── appcast.xml                    # Sparkle update feed
-├── releases/                      # Release artifacts
-└── .gitignore                    # Excludes generated files and keys
+├── releases/                      # Release artifacts directory
+├── .gitignore                    # Security and privacy protection
+└── README.md                     # This documentation
 ```
 
-## 🔒 Security
+## 🔒 Security & Privacy
 
-- Private keys are excluded from version control
-- All updates are cryptographically signed
-- Generated tools are automatically ignored by git
-- DMG files are processed locally and uploaded separately
+This public repository is designed with security in mind:
+
+- **No sensitive data**: Private keys, certificates, and personal information are excluded
+- **Minimal footprint**: Only essential files for the update system are public
+- **Secure updates**: All releases are cryptographically signed and verified
+- **Clean structure**: Professional appearance with no internal tooling exposed
+
+## 📦 How Updates Work
+
+1. **Release Creation**: New versions are released through GitHub Releases
+2. **Appcast Update**: The `appcast.xml` is updated with new version information
+3. **User Notification**: VoiceX automatically checks for updates and notifies users
+4. **Secure Download**: Updates are downloaded and verified using cryptographic signatures
 
 ## 🚨 Important Notes
 
-- **Never commit private keys** to the repository
-- Always use notarized DMG files for releases
-- Test updates in a development environment first
-- Keep the public key synchronized between app and updater
+- This repository contains only the public update feed
+- All DMG files and signing tools are managed privately
+- Updates are automatically distributed to users within 1 hour of release
+- The appcast follows Sparkle framework standards for security and reliability
 
 ## 📚 Documentation
 
 - [Sparkle Framework Documentation](https://sparkle-project.org/documentation/)
 - [macOS App Notarization](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution)
 
-## 🤝 Contributing
+## 🤝 Support
 
-This repository is maintained for VoiceX application updates. For issues or improvements, please contact the development team.
+This repository is maintained for VoiceX application updates. For technical support or questions about VoiceX, please contact the development team.
 
 ---
 
