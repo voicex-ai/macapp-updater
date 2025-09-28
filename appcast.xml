@@ -25,7 +25,7 @@
             <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg"
                        sparkle:version="0.2.0"
                        sparkle:shortVersionString="0.2.0"
-                       sparkle:edSignature="sparkle:edSignature="ZMceKOs18moy9qhR06sJ9QfhjcIfu+T9j988XBnkVjn8lu2jMhQ5n3UpDMj0fM2EzG49r0xUrq7mdzMvRAUtCw==" length="12752239""
+                       sparkle:edSignature="ZMceKOs18moy9qhR06sJ9QfhjcIfu+T9j988XBnkVjn8lu2jMhQ5n3UpDMj0fM2EzG49r0xUrq7mdzMvRAUtCw=="
                        length="12752239"
                        type="application/octet-stream"/>
         </item>
