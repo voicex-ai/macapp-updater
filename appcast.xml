@@ -6,10 +6,10 @@
         <language>en</language>
         
         <item>
-            <title>VoiceX 0.1.0</title>
+            <title>VoiceX 0.2.0</title>
             <description><![CDATA[
-                <h2>VoiceX 0.1.0</h2>
-                <p>Initial release</p>
+                <h2>VoiceX 0.2.0</h2>
+                <p>new release</p>
                 <ul>
                     <li>Latest features and improvements</li>
                     <li>Performance optimizations</li>
@@ -17,16 +17,16 @@
                     <li>Enhanced user experience</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 28 Sep 2025 13:30:49 +0530</pubDate>
-            <sparkle:version>0.1.0</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <pubDate>Sun, 28 Sep 2025 13:48:02 +0530</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:criticalUpdate/>
-            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.1.0/VoiceX-0.1.0.dmg"
-                       sparkle:version="0.1.0"
-                       sparkle:shortVersionString="0.1.0"
-                       sparkle:edSignature="sparkle:edSignature="bh5v/8sWJny/JFQBtuiH6wQfPkX0UBsDvgdnBBcjAFOG17X2odJvKUMj4zLU0I+viABqMX8SOkHSuXTeretnBg==" length="12749020""
-                       length="12749020"
+            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg"
+                       sparkle:version="0.2.0"
+                       sparkle:shortVersionString="0.2.0"
+                       sparkle:edSignature="sparkle:edSignature="QMvt9HdaUbqEKwbp1JUCRt4Pu/lzfh6odbMO3SA5dXl4/OHjiyYUI0LbulGCO2ng1XgMmoyFu4iQ8TGouSf8Aw==" length="12748366""
+                       length="12748366"
                        type="application/octet-stream"/>
         </item>
     </channel>
