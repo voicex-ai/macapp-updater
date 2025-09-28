@@ -6,10 +6,10 @@
         <language>en</language>
         
         <item>
-            <title>VoiceX 0.1.0</title>
+            <title>VoiceX 0.2.0</title>
             <description><![CDATA[
-                <h2>VoiceX 0.1.0</h2>
-                <p>first release</p>
+                <h2>VoiceX 0.2.0</h2>
+                <p>new release</p>
                 <ul>
                     <li>Latest features and improvements</li>
                     <li>Performance optimizations</li>
@@ -17,16 +17,16 @@
                     <li>Enhanced user experience</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 28 Sep 2025 15:14:13 +0530</pubDate>
-            <sparkle:version>0.1.0</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <pubDate>Sun, 28 Sep 2025 15:46:29 +0530</pubDate>
+            <sparkle:version>0.2.0</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:criticalUpdate/>
-            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.1.0/VoiceX-0.1.0.dmg"
-                       sparkle:version="0.1.0"
-                       sparkle:shortVersionString="0.1.0"
-                       sparkle:edSignature="sparkle:edSignature="HoWlvzGca85xcuV1n/wXSyFYKBeXSFnZCuc2kZtoXR6f4jV/MCFvYt0qBYWnwLjUp9VDiIbUlfglyyLuInXoAQ==" length="12748354""
-                       length="12748354"
+            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v0.2.0/VoiceX-0.2.0.dmg"
+                       sparkle:version="0.2.0"
+                       sparkle:shortVersionString="0.2.0"
+                       sparkle:edSignature="sparkle:edSignature="P9dkBBb39xSc/AwPhVZXa9kaL+vA0OFkrAnDdbwhbmzXqk7FaatvSo/V/+tP9rUvylvHW2l8UeIqIQBq8/zhDw==" length="12752889""
+                       length="12752889"
                        type="application/octet-stream"/>
         </item>
     </channel>
