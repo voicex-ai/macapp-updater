@@ -1,20 +1,89 @@
+# ===========================================
+# SECURITY: Sensitive files for public repo
+# ===========================================
+
+# Private keys and certificates
+eddsa_key_*.private
+*.p12
+*.pem
+*.key
+*.cert
+*.crt
+
+# Generated Sparkle tools (contain binary data)
+generate_keys
+sign_update
+
+# Application binaries and installers
+*.dmg
+*.pkg
+*.app
+*.ipa
+
+# ===========================================
+# DEVELOPMENT FILES
+# ===========================================
+
 # Shell scripts (except essential helpers)
 *.sh
 !setup_sparkle_keys.sh
 !process_dmg_for_sparkle.sh
 
-# Generated Sparkle tools
-generate_keys
-sign_update
-
-# Private keys
-eddsa_key_*.private
-
-# DMG files
-*.dmg
-
-# Temporary files
+# Temporary and cache files
 sparkle-tools.zip
+*.tmp
+*.temp
+*.cache
+.DS_Store
+Thumbs.db
 
-# Broken/test files
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+
+# ===========================================
+# TESTING AND DEVELOPMENT
+# ===========================================
+
+# Test files
 appcast_broken.xml
+test_*
+*_test.*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# ===========================================
+# PERSONAL DATA PROTECTION
+# ===========================================
+
+# Personal notes and documentation
+notes.txt
+TODO.txt
+personal_*
+my_*
+
+# Environment and configuration files
+.env
+.env.local
+config.local.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
