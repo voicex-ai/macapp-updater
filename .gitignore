@@ -1,12 +1,20 @@
+# Shell scripts (except essential helpers)
+*.sh
+!setup_sparkle_keys.sh
+!process_dmg_for_sparkle.sh
 
-# Sparkle private keys - NEVER commit!
-*.private
-eddsa_key_*
-
-# Sparkle tools
+# Generated Sparkle tools
 generate_keys
 sign_update
+
+# Private keys
+eddsa_key_*.private
+
+# DMG files
+*.dmg
+
+# Temporary files
 sparkle-tools.zip
 
-# DMG files (go to releases instead)
-*.dmg
+# Broken/test files
+appcast_broken.xml
