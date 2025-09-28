@@ -1,0 +1,12 @@
+
+# Sparkle private keys - NEVER commit!
+*.private
+eddsa_key_*
+
+# Sparkle tools
+generate_keys
+sign_update
+sparkle-tools.zip
+
+# DMG files (go to releases instead)
+*.dmg
