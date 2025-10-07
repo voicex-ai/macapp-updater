@@ -6,10 +6,10 @@
         <language>en</language>
         
         <item>
-            <title>VoiceX 1.0.1</title>
+            <title>VoiceX 1.0.2</title>
             <description><![CDATA[
-                <h2>VoiceX 1.0.1</h2>
-                <p>release 1.0.1</p>
+                <h2>VoiceX 1.0.2</h2>
+                <p>release 1.0.2</p>
                 <ul>
                     <li>Latest features and improvements</li>
                     <li>Performance optimizations</li>
@@ -17,16 +17,16 @@
                     <li>Enhanced user experience</li>
                 </ul>
             ]]></description>
-            <pubDate>Wed, 01 Oct 2025 09:13:41 +0530</pubDate>
-            <sparkle:version>1.0.1</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <pubDate>Tue, 07 Oct 2025 22:36:01 +0530</pubDate>
+            <sparkle:version>1.0.2</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:criticalUpdate/>
-            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v1.0.1/VoiceX-1.0.1.dmg"
-                       sparkle:version="1.0.1"
-                       sparkle:shortVersionString="1.0.1"
-                       sparkle:edSignature="FPzj1HQdUDM3K4RaHReSylCjdrSq+DI6DTlsLno71FgN6FFgXq0+940GcTW6TUBuZG5RDVWwScziMvqkGrtDBA=="
-                       length="13458413"
+            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v1.0.2/VoiceX-1.0.2.dmg"
+                       sparkle:version="1.0.2"
+                       sparkle:shortVersionString="1.0.2"
+                       sparkle:edSignature="+QrewcVzU6tRxhEct8oQJ5JqqtFS1W+It9nSLMHHIKdeINLh/P6s2EPlmRuWD3xx8wNF6y9Xii/oTynZwqyrBw=="
+                       length="13451313"
                        type="application/octet-stream"/>
         </item>
     </channel>
