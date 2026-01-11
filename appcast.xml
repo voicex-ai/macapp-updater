@@ -17,7 +17,7 @@
                     <li>Enhanced user experience</li>
                 </ul>
             ]]></description>
-            <pubDate>Sat, 03 Jan 2026 20:54:09 +0530</pubDate>
+            <pubDate>Sun, 11 Jan 2026 22:08:43 +0530</pubDate>
             <sparkle:version>1.0.10</sparkle:version>
             <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
@@ -25,8 +25,8 @@
             <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v1.0.10/VoiceX-1.0.10.dmg"
                        sparkle:version="1.0.10"
                        sparkle:shortVersionString="1.0.10"
-                       sparkle:edSignature="hzBAAgSiy1BWY/Cr6VIYi5uPni7vhZPXEiFYbPkJEXVFm4I046jRiCOrOMp4SrJCEL8jnWuQLmAyPZb/TIvFAw=="
-                       length="22247176"
+                       sparkle:edSignature="whZ9aAVFWm4kS9o5YVc6PSDZv511jY1K65gx9MUAn3UTxBjiqYoAAqQ3FqQUGoQzu/K8g3vC9Hm4x638RUXhBg=="
+                       length="22583333"
                        type="application/octet-stream"/>
         </item>
     </channel>
