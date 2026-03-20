@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>VoiceX Dev Updates</title>
+        <description>VoiceX automatic updates (Dev Channel)</description>
+        <language>en</language>
+
+        <item>
+            <title>VoiceX 1.0.19</title>
+            <description><![CDATA[
+                <h2>VoiceX 1.0.19</h2>
+                <p>v1.0.19</p>
+                <ul>
+                    <li>Latest features and improvements</li>
+                    <li>Performance optimizations</li>
+                    <li>Bug fixes and stability updates</li>
+                    <li>Enhanced user experience</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 19 Mar 2026 10:31:58 +0530</pubDate>
+            <sparkle:version>1.0.19</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:criticalUpdate/>
+            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v1.0.19/VoiceX-1.0.19.dmg"
+                       sparkle:version="1.0.19"
+                       sparkle:shortVersionString="1.0.19"
+                       sparkle:edSignature="c4OGIUpEikL60iSHf+HLi2DHXuedBys0bZZnDussUqk2CvJQTHUWXEaFPIdPeByoZzqa7hmXTo40JTqZn6KIBg=="
+                       length="24228440"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
