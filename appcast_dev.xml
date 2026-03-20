@@ -2,51 +2,27 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>VoiceX Dev Updates</title>
-        <description>VoiceX automatic updates (Dev Channel)</description>
+        <description>VoiceX Dev automatic updates</description>
         <language>en</language>
 
-                <item>
-            <title>VoiceX Dev 1.0.20</title>
+        <item>
+            <title>VoiceX Dev 1.0.21</title>
             <description><![CDATA[
-                <h2>VoiceX Dev 1.0.20</h2>
+                <h2>VoiceX Dev 1.0.21</h2>
                 <p>sparkle issue</p>
             ]]></description>
-            <pubDate>Fri, 20 Mar 2026 18:04:49 +0530</pubDate>
-            <sparkle:version>1.0.20</sparkle:version>
-            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <pubDate>Fri, 20 Mar 2026 18:21:13 +0530</pubDate>
+            <sparkle:version>1.0.21</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/voicex-ai/macapp-updater/releases/download/dev-v1.0.20/VoiceX-Dev-1.0.20.dmg"
-                sparkle:version="1.0.20"
-                sparkle:shortVersionString="1.0.20"
-                sparkle:edSignature="LoZ2aStsSjrRlydrjmIKP9QQV0LO2wdviatnEWOGuZWP1EAHCwU/w72YnVtrn1kClT77pWfe0Aze+5eVHPvNCw=="
-                length="25410010"
+                url="https://github.com/voicex-ai/macapp-updater/releases/download/dev-v1.0.21/VoiceX-Dev-1.0.21.dmg"
+                sparkle:version="1.0.21"
+                sparkle:shortVersionString="1.0.21"
+                sparkle:edSignature="EjGBBJTWh/KTS7TnR0VbROuO7FGVHlDbu0+woMnDjSTmywa4jgjJTVx8nwqT9pa6ymBWs2/AL4kUhO4Zx/G2Cg=="
+                length="25411029"
                 type="application/octet-stream"/>
         </item>
 
-        <item>
-            <title>VoiceX 1.0.19</title>
-            <description><![CDATA[
-                <h2>VoiceX 1.0.19</h2>
-                <p>v1.0.19</p>
-                <ul>
-                    <li>Latest features and improvements</li>
-                    <li>Performance optimizations</li>
-                    <li>Bug fixes and stability updates</li>
-                    <li>Enhanced user experience</li>
-                </ul>
-            ]]></description>
-            <pubDate>Thu, 19 Mar 2026 10:31:58 +0530</pubDate>
-            <sparkle:version>1.0.19</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-            <sparkle:criticalUpdate/>
-            <enclosure url="https://github.com/voicex-ai/macapp-updater/releases/download/v1.0.19/VoiceX-1.0.19.dmg"
-                       sparkle:version="1.0.19"
-                       sparkle:shortVersionString="1.0.19"
-                       sparkle:edSignature="c4OGIUpEikL60iSHf+HLi2DHXuedBys0bZZnDussUqk2CvJQTHUWXEaFPIdPeByoZzqa7hmXTo40JTqZn6KIBg=="
-                       length="24228440"
-                       type="application/octet-stream"/>
-        </item>
     </channel>
 </rss>
