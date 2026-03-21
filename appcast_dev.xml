@@ -6,21 +6,21 @@
         <language>en</language>
 
         <item>
-            <title>VoiceX Dev 1.0.29</title>
+            <title>VoiceX Dev 1.0.30</title>
             <description><![CDATA[
-                <h2>VoiceX Dev 1.0.29</h2>
+                <h2>VoiceX Dev 1.0.30</h2>
                 <p>sparkle</p>
             ]]></description>
-            <pubDate>Sat, 21 Mar 2026 15:18:23 +0530</pubDate>
-            <sparkle:version>1.0.29</sparkle:version>
-            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <pubDate>Sat, 21 Mar 2026 15:35:15 +0530</pubDate>
+            <sparkle:version>1.0.30</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <enclosure
-                url="https://github.com/voicex-ai/macapp-updater/releases/download/dev-v1.0.29/VoiceX-Dev-1.0.29.dmg"
-                sparkle:version="1.0.29"
-                sparkle:shortVersionString="1.0.29"
-                sparkle:edSignature="dCDtkQudU8f7zvapTjKom0VQO5HpSH6qXE7VTEoXmYZpUq1N68Sif6ifWaGqWYTkRpV9LNhaQbkyIP21I1EZDA=="
-                length="25409025"
+                url="https://github.com/voicex-ai/macapp-updater/releases/download/dev-v1.0.30/VoiceX-Dev-1.0.30.dmg"
+                sparkle:version="1.0.30"
+                sparkle:shortVersionString="1.0.30"
+                sparkle:edSignature="KFWiiLOfzdKwlT79XKf2CQx2PvbnRQFvFTJzPVp/fFCzF1pn59Zg0o/nQ73PpIX812honeCb5gNFHFhFi5T8DA=="
+                length="25409738"
                 type="application/octet-stream"/>
         </item>
 
