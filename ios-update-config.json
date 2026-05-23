@@ -1,0 +1,9 @@
+{
+  "ios": {
+    "minimum_version": "1.0.0",
+    "latest_version": "1.0.0",
+    "force_update_message": "A critical update is required to continue using VoiceX. Please update to the latest version.",
+    "optional_update_message": "A new version of VoiceX is available with improvements and bug fixes.",
+    "app_store_url": "https://apps.apple.com/app/voicex/id6738225805"
+  }
+}
